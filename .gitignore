@@ -1,0 +1,52 @@
+# Бинарные файлы и исполняемые файлы
+/bin/
+/build/
+*.exe
+*.out
+*.app
+
+# Файлы сборки и кэша CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+*.cmake
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Объектные файлы и промежуточные файлы компиляции
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Резервные копии и автосохранения
+*.bak
+*.backup
+*_backup
+
+# Файлы покрытия кода (gcov)
+*.gcno
+*.gcda
+*.gcov
+
+# Файлы профилирования
+*.profraw
+*.profdata
